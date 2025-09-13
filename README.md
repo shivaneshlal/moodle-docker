@@ -8,7 +8,7 @@ Run [Moodle](https://moodle.org/) locally using Docker with **Nginx**, **PHP-FPM
 
 **Clone this repo**
   ```bash
-   git clone https://github.com/<your-username>/moodle-docker.git
+   git clone git@github.com:shivaneshlal/moodle-docker.git
    cd moodle-docker
    git clone --branch MOODLE_500_STABLE https://github.com/moodle/moodle.git moodle
 
@@ -16,6 +16,6 @@ Run [Moodle](https://moodle.org/) locally using Docker with **Nginx**, **PHP-FPM
    DB_NAME=moodle
    DB_USER=moodle
    DB_PASSWORD=changeme
-   
+
 docker compose up -d --build
 
